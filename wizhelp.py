@@ -15,6 +15,7 @@ from pygifsicle import optimize
 
 from functions.library_tc import wtb_tc
 from functions.find_boss_info import find_boss_info
+from functions.reagent_recipes import reagent_recipes_lookup
 
 bot = commands.Bot(command_prefix='!')
 
@@ -46,5 +47,11 @@ async def wtb_tc(context, *spell: str):
     await context.send("**Spell:     **" + tc_info['spell'])
     await context.send("**Cost:      **" + tc_info['cost'])
 
+@bot.command(name='reagent', help='')
+async def wtb_tc(context, *reagent: str):
+    reagent_recipes = reagent_recipes_lookup(reagent)
+    print(reagent_recipes)
+    for item in reagent_recipes:
+        await context.send('[%s](%s)' % (item[0], item[1]))
 
 bot.run(os.getenv('BOT_TOKEN'))
