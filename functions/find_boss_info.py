@@ -1,11 +1,27 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from googlesearch import search
 
 def find_boss_info(boss_name):
     url = 'http://www.wizard101central.com/wiki/Creature:' + str('_'.join(boss_name)).title()
     resp = requests.get(url)
     page_info = BeautifulSoup(resp.text, 'html.parser')
+    if page_info.find('div', {'class':'noarticletext'}):
+        print('couldn\'t find wiki')
+        query = '+'.join(boss_name)+' wizard101'
+        # print(query)
+        search_results = search(query, 5)
+        # print(search_results)
+        for result in search_results:
+            if 'wizard101central' in result:
+                print(result)
+                url = result
+                resp = requests.get(url)
+                page_info = BeautifulSoup(resp.text, 'html.parser')
+                break
+
+
     general_info = page_info.find('div', {'id': 'relative-top'})
     general_info = general_info.findAll('tr')
     health = general_info[3].findAll('td')[1].get_text()
@@ -53,3 +69,5 @@ def find_boss_info(boss_name):
     }
 
     return boss_info
+
+# find_boss_info(['gladiatordimachaelus'])
