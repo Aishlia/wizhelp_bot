@@ -54,8 +54,7 @@ def find_boss_info(boss_name):
 
     #await context.send("__**Cheats: **__")
     try:
-        cheats = page_info.find('div', text='Cheats').parent()
-        # await context.send(cheats[1].text)
+        cheats = page_info.find('div', text='Cheats').parent()[1].get_text()
     except:
         cheats = 'This boss has no cheats'
         # await context.send("This boss has no cheats")
