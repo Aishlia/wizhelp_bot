@@ -1,0 +1,870 @@
+Wizard City Library
+
+Vendor Name: Harold Argleston
+
+Vendor Location: Wizard City Library, The Commons, WC
+
+Fire Shield - 150 Gold
+
+Myth Shield - 150
+
+Ice Shield - 150
+
+Storm Shield - 150
+
+Death Shield - 150
+
+Life Shield - 150
+
+Blood Bat - 150
+
+Dark Sprite - 200
+
+Fire Cat - 200
+
+Frost Beetle - 200
+
+Imp - 200
+
+Thunder Snake - 200
+
+Scarab - 200
+
+Fire Elf - 250
+
+Ghoul - 250
+
+Lightning Bats - 250
+
+Troll - 250
+
+
+Leprechaun - 250
+
+Scorpion - 250
+
+Storm Shark - 250
+
+Snow Serpent - 250
+
+Stun Block - 300
+
+Dream Shield - 350
+
+Weakness - 350
+
+Sprite - 350
+
+Volcanic Shield - 350
+
+Legend Shield - 350
+
+Ether Shield - 350
+
+Evil Snowman - 400
+
+Sunbird - 400
+
+Banshee - 400
+
+Locust Swarm - 400
+
+Cyclops - 400
+
+Tower Shield - 450
+
+Spirit Blade - 450
+
+Elemental Trap - 450
+
+Spirit Trap - 450
+
+Elemental Blade - 450
+
+Spirit Armor - 500
+
+Meteor Strike - 500
+
+Humongofrog - 500
+
+Kraken - 550
+
+Ice Wyvern - 550
+
+Vampire - 550
+
+Seraph - 550
+
+Spectral Blast - 550
+
+Glacial Shield - 700
+
+Skeletal Pirate - 1000
+
+Phoenix - 1000
+
+Minotaur - 1000
+
+Reshuffle - 1100
+
+Fairy - 1600
+Krokotopia Library
+
+Vendor Name: Zan'ne
+
+Vendor Location: Krokotopia Library, The Oasis, Krok
+
+Accurate - 50 Gold
+
+Fire Shield - 150 Gold
+
+Myth Shield - 150
+
+Ice Shield - 150
+
+Storm Shield - 150
+
+Death Shield - 150
+
+Life Shield - 150
+
+Blood Bat - 150
+
+Dark Sprite - 200
+
+Fire Cat - 200
+
+Frost Beetle - 200
+
+Imp - 200
+
+Thunder Snake - 200
+
+Scarab - 200
+
+Fire Elf - 250
+
+Ghoul - 250
+
+Lightning Bats - 250
+
+Troll - 250
+
+Leprechaun - 250
+
+Storm Shark - 250
+
+Snow Serpent - 250
+
+Stun Block - 300
+
+Dream Shield - 350
+
+Weakness - 350
+
+Sprite - 350
+
+Volcanic Shield - 350
+
+Legend Shield - 350
+
+Ether Shield - 350
+
+Evil Snowman - 400
+
+Sunbird - 400
+
+Banshee - 400
+
+Locust Swarm - 400
+
+Cyclops - 400
+
+Tower Shield - 450
+
+Spirit Blade - 450
+
+Elemental Trap - 450
+
+Spirit Trap - 450
+
+Elemental Blade - 450
+
+Spirit Armor - 500
+
+Meteor Strike - 500
+
+Humongofrog - 500
+
+Kraken - 550
+
+Ice Wyvern - 550
+
+Vampire - 550
+
+Seraph - 550
+
+Spectral Blast - 550
+
+Glacial Shield - 700
+
+Skeletal Pirate - 1000
+
+Phoenix - 1000
+
+Minotaur - 1000
+
+Death Blade - 1000
+
+Ice Blade - 1000
+
+Life Blade - 1000
+
+Myth Blade - 1000
+
+Storm Blade - 1000
+
+Fire Blade - 1000
+
+Reshuffle - 1100
+
+Fairy - 1600
+The Archivist
+
+Vendor Name: The Archivist
+
+Vendor Location: District of the Stars, CL
+
+Keen Eyes - 50 Gold
+
+Tough - 50
+
+Accurate - 50
+
+Fire Shield - 150
+
+Myth Shield - 150
+
+Ice Shield - 150
+
+Storm Shield - 150
+
+Death Shield - 150
+
+Life Shield - 150
+
+Giant - 150
+
+Sniper - 150
+
+Monstrous - 250
+
+Unstoppable - 250
+
+Calm - 300
+
+Pacify - 300
+
+Soothe - 300
+
+Subdue - 300
+
+Tranquilize - 300
+
+Stun Block - 300
+
+Volcanic Shield - 350
+
+Legend Shield - 350
+
+Ether Shield - 350
+
+Death Trap - 350
+
+Fire Trap - 350
+
+Ice Trap - 350
+
+Life Trap - 350
+
+Myth Trap - 350
+
+Storm Trap - 350
+
+Sprite - 350
+
+Power Play - 400
+
+Doom and Gloom - 400
+
+Wyldfire - 400
+
+Balefrost - 400
+
+Sanctuary - 400
+
+Time of Legend - 400
+
+Darkwind - 400
+
+Tower Shield - 450
+
+Spirit Blade - 450
+
+Elemental Trap - 450
+
+Spirit Trap - 450
+
+Elemental Blade - 450
+
+Distract - 500
+
+Dark Sprite - 500
+
+ Spirit Armor - 500
+
+Gargantuan - 500
+
+Life Prism - 600
+
+Mutate Banshee - 600
+
+Myth Prism - 600
+
+Mutate Swarm - 600
+
+Storm Prism - 600
+
+Death Prism - 600
+
+Fire Prism - 600
+
+Ice Prism - 600
+
+Mutate Wyvern - 700
+
+Mutate Kraken - 700
+
+Glacial Shield - 700
+
+Quench - 700
+
+Mutate Minotaur - 800
+
+FireSpear - 800
+
+DeathSpear - 800
+
+IceSpear - 800
+
+MythSpear - 800
+
+StormSpear - 800
+
+LifeSpear - 800
+
+Fortify - 1000
+
+Amplify - 1000
+
+Cloak - 1000
+
+Infallible - 1000
+
+Death Blade - 1000
+
+Ice Blade - 1000
+
+Life Blade - 1000
+
+Myth Blade - 1000
+
+Storm Blade - 1000
+
+Fire Blade - 1000
+
+Polymorph Mander - 1000
+
+Polymorph Gobbler - 1000
+
+Mutate Phoenix - 1000
+
+Elemental Spear - 1000
+
+Spirit Spear - 1000
+
+Stormzilla - 1000
+
+Reshuffle - 1100
+
+Helephant - 1200
+
+Wraith - 1200
+
+Colossus - 1200
+
+Hydra - 1200
+
+Centaur - 1200
+
+Polymorph Bandit - 1200
+
+Polymorph Treant - 1500
+
+Polymorph Dragon - 1500
+
+Fairy - 1600
+
+Polymorph Elemental - 2000
+
+Polymorph Colossus - 2000
+
+Triton - 2200
+
+Earthquake - 2600
+
+Dryad - 3000
+
+Taunt - 3600
+Zafaria Library
+
+Vendor Name: Kiliman Copperleaf
+
+Vendor Location: Baobab Crown, Zafaria
+
+Keen Eyes - 50 Gold
+
+Tough - 50
+
+Accurate - 50
+
+Buff Minion - 150
+
+Fire Shield - 150
+
+Myth Shield - 150
+
+Ice Shield - 150
+
+Storm Shield - 150
+
+Death Shield - 150
+
+Life Shield - 150
+
+Giant - 150
+
+Sniper - 150
+
+Monstrous - 250
+
+Unstoppable - 250
+
+Draw Health - 300
+
+Calm - 300
+
+Pacify - 300
+
+Soothe - 300
+
+Subdue - 300
+
+Tranquilize - 300
+
+Stun Block - 300
+
+Volcanic Shield - 350
+
+Legend Shield - 350
+
+Ether Shield - 350
+
+Thermic Shield - 350
+
+Death Trap - 350
+
+Fire Trap - 350
+
+Ice Trap - 350
+
+Life Trap - 350
+
+Myth Trap - 350
+
+Storm Trap - 350
+
+Sprite - 350
+
+Drain Health - 400
+
+Mend Minion - 400
+
+Power Play - 400
+
+Doom and Gloom - 400
+
+Wyldfire - 400
+
+Balefrost - 400
+
+Sanctuary - 400
+
+Time of Legend - 400
+
+Darkwind - 400
+
+Sap Health - 450
+
+Tower Shield - 450
+
+Spirit Blade - 450
+
+Elemental Trap - 450
+
+Spirit Trap - 450
+
+Elemental Blade - 450
+
+Steal Health - 500
+
+Distract - 500
+
+Dark Sprite - 500
+
+ Spirit Armor - 500
+
+Gargantuan - 500
+
+Life Prism - 600
+
+Mutate Banshee - 600
+
+Myth Prism - 600
+
+Mutate Swarm - 600
+
+Storm Prism - 600
+
+Death Prism - 600
+
+Fire Prism - 600
+
+Ice Prism - 600
+
+Mutate Wyvern - 700
+
+Mutate Kraken - 700
+
+Glacial Shield - 700
+
+Quench - 700
+
+Mutate Minotaur - 800
+
+FireSpear - 800
+
+DeathSpear - 800
+
+IceSpear - 800
+
+MythSpear - 800
+
+StormSpear - 800
+
+LifeSpear - 800
+
+Satyr - 1000
+
+Fortify - 1000
+
+Amplify - 1000
+
+Vengeance - 1000
+
+Infallible - 1000
+
+Death Blade - 1000
+
+Ice Blade - 1000
+
+Life Blade - 1000
+
+Myth Blade - 1000
+
+Storm Blade - 1000
+
+Fire Blade - 1000
+
+Polymorph Mander - 1000
+
+Polymorph Gobbler - 1000
+
+Mutate Phoenix - 1000
+
+Elemental Spear - 1000
+
+Spirit Spear - 1000
+
+Stormzilla - 1000
+
+Take Power - 1050
+
+Reshuffle - 1100
+
+Sap Power - 1200
+
+Helephant - 1200
+
+Hydra - 1200
+
+Wraith - 1200
+
+Colossus - 1200
+
+Centaur - 1200
+
+Polymorph Bandit - 1200
+
+Spirit Shield - 1350
+
+Elemental Shield - 1350
+
+Polymorph Treant - 1500
+
+Polymorph Dragon - 1500
+
+Polymorph Ninja - 1500
+
+Conviction - 1500
+
+Strangle - 1500
+
+Unbalance - 1500
+
+Vaporize - 1500
+
+Fairy - 1600
+
+Sprite Guardian - 2000
+
+Ice Guardian - 2000
+
+Water Elemental - 2000
+
+Fire Elemental - 2000
+
+Mander Minion - 2000
+
+Cyclops Minion - 2000
+
+Animate - 2000
+
+Spirit Defuse - 2000
+
+Elemental Defuse - 2000
+
+Polymorph Elemental - 2000
+
+Polymorph Colossus - 2000
+
+Triton - 2200
+
+Earthquake - 2600
+
+Dryad - 3000
+
+Entangle - 3000
+Avalon Library
+
+Vendor Name: Francis Lux
+
+Vendor Location: Abbey Road, AV
+
+Buff Minion - 150
+
+Fire Shield - 150
+
+Myth Shield - 150
+
+Ice Shield - 150
+
+Storm Shield - 150
+
+Death Shield - 150
+
+Life Shield - 150
+
+Sniper - 150
+
+Monstrous - 250
+
+Unstoppable - 250
+
+Draw Health - 300
+
+Calm - 300
+
+Pacify - 300
+
+Soothe - 300
+
+Subdue - 300
+
+Tranquilize - 300
+
+Volcanic Shield - 350
+
+Legend Shield - 350
+
+Ether Shield - 350
+
+Thermic Shield - 350
+
+Death Trap - 350
+
+Fire Trap - 350
+
+Ice Trap - 350
+
+Life Trap - 350
+
+Myth Trap - 350
+
+Storm Trap - 350
+
+Drain Health - 400
+
+Mend Minion - 400
+
+Power Play - 400
+
+Doom and Gloom - 400
+
+Wyldfire - 400
+
+Balefrost - 400
+
+Sanctuary - 400
+
+Time of Legend - 400
+
+Darkwind - 400
+
+Nature's Wrath - 400
+
+Sap Health - 450
+
+Spirit Blade - 450
+
+Elemental Trap - 450
+
+Spirit Trap - 450
+
+Elemental Blade - 450
+
+Steal Health - 500
+
+Mega Calm - 500
+
+Mega Pacify - 500
+
+Mega Soothe - 500
+
+Mega Subdue - 500
+
+Mega Tranquilize - 500
+
+Distract - 500
+
+ Spirit Armor - 500
+
+Gargantuan - 500
+
+Life Prism - 600
+
+Storm Prism - 600
+
+Death Prism - 600
+
+Fire Prism - 600
+
+Ice Prism - 600
+
+Glacial Shield - 700
+
+Quench - 700
+
+FireSpear - 800
+
+DeathSpear - 800
+
+IceSpear - 800
+
+MythSpear - 800
+
+StormSpear - 800
+
+LifeSpear - 800
+
+Stormzilla - 1000
+
+Death Blade - 1000
+
+Ice Blade - 1000
+
+Life Blade - 1000
+
+Myth Blade - 1000
+
+Storm Blade - 1000
+
+Fire Blade - 1000
+
+Elemental Spear - 1000
+
+Spirit Spear - 1000
+
+Stormzilla - 1000
+
+Take Power - 1050
+
+Reshuffle - 1100
+
+Sap Power - 1200
+
+Helephant - 1200
+
+Hydra - 1200
+
+Wraith - 1200
+
+Colossus - 1200
+
+Hydra - 1200
+
+Centaur - 1200
+
+Spirit Shield - 1350
+
+Elemental Shield - 1350
+
+Strangle - 1500
+
+Unbalance - 1500
+
+Vaporize - 1500
+
+Unicorn - 2000
+
+Spirit Defuse - 2000
+
+Elemental Defuse - 2000
+
+Triton - 2200
+
+Earthquake - 2600
+
+Dryad - 3000
+
+Entangle - 3000

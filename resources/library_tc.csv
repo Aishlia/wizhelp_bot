@@ -1,0 +1,423 @@
+library|location|librarian|spell|cost
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Fire Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Myth Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Ice Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Storm Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Death Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Life Shield|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Blood Bat|150
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Dark Sprite|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Fire Cat|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Frost Beetle|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Imp|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Thunder Snake|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Scarab|200
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Fire Elf|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Ghoul|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Lightning Bats|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Troll|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Leprechaun|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Scorpion|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Storm Shark|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Snow Serpent|250
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Stun Block|300
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Dream Shield|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Weakness|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Sprite|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Volcanic Shield|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Legend Shield|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Ether Shield|350
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Evil Snowman|400
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Sunbird|400
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Banshee|400
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Locust Swarm|400
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Cyclops|400
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Tower Shield|450
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Spirit Blade|450
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Elemental Trap|450
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Spirit Trap|450
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Elemental Blade|450
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Spirit Armor|500
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Meteor Strike|500
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Humongofrog|500
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Kraken|550
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Ice Wyvern|550
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Vampire|550
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Seraph|550
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Spectral Blast|550
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Glacial Shield|700
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Skeletal Pirate|1000
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Phoenix|1000
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Minotaur|1000
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Reshuffle|1100
+Wizard City Library|Wizard City Library, The Commons, WC|Harold Argleston|Fairy|1600
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Accurate|50
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Fire Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Myth Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Ice Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Storm Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Death Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Life Shield|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Blood Bat|150
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Dark Sprite|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Fire Cat|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Frost Beetle|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Imp|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Thunder Snake|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Scarab|200
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Fire Elf|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Ghoul|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Lightning Bats|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Troll|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Leprechaun|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Storm Shark|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Snow Serpent|250
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Stun Block|300
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Dream Shield|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Weakness|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Sprite|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Volcanic Shield|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Legend Shield|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Ether Shield|350
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Evil Snowman|400
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Sunbird|400
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Banshee|400
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Locust Swarm|400
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Cyclops|400
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Tower Shield|450
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Spirit Blade|450
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Elemental Trap|450
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Spirit Trap|450
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Elemental Blade|450
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Spirit Armor|500
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Meteor Strike|500
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Humongofrog|500
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Kraken|550
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Ice Wyvern|550
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Vampire|550
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Seraph|550
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Spectral Blast|550
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Glacial Shield|700
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Skeletal Pirate|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Phoenix|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Minotaur|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Death Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Ice Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Life Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Myth Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Storm Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Fire Blade|1000
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Reshuffle|1100
+Krokotopia Library|Krokotopia Library, The Oasis, Krok|Zan'ne|Fairy|1600
+The Archivist|District of the Stars, CL|The Archivist|Keen Eyes|50
+The Archivist|District of the Stars, CL|The Archivist|Tough|50
+The Archivist|District of the Stars, CL|The Archivist|Accurate|50
+The Archivist|District of the Stars, CL|The Archivist|Fire Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Myth Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Ice Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Storm Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Death Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Life Shield|150
+The Archivist|District of the Stars, CL|The Archivist|Giant|150
+The Archivist|District of the Stars, CL|The Archivist|Sniper|150
+The Archivist|District of the Stars, CL|The Archivist|Monstrous|250
+The Archivist|District of the Stars, CL|The Archivist|Unstoppable|250
+The Archivist|District of the Stars, CL|The Archivist|Calm|300
+The Archivist|District of the Stars, CL|The Archivist|Pacify|300
+The Archivist|District of the Stars, CL|The Archivist|Soothe|300
+The Archivist|District of the Stars, CL|The Archivist|Subdue|300
+The Archivist|District of the Stars, CL|The Archivist|Tranquilize|300
+The Archivist|District of the Stars, CL|The Archivist|Stun Block|300
+The Archivist|District of the Stars, CL|The Archivist|Volcanic Shield|350
+The Archivist|District of the Stars, CL|The Archivist|Legend Shield|350
+The Archivist|District of the Stars, CL|The Archivist|Ether Shield|350
+The Archivist|District of the Stars, CL|The Archivist|Death Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Fire Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Ice Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Life Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Myth Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Storm Trap|350
+The Archivist|District of the Stars, CL|The Archivist|Sprite|350
+The Archivist|District of the Stars, CL|The Archivist|Power Play|400
+The Archivist|District of the Stars, CL|The Archivist|Doom and Gloom|400
+The Archivist|District of the Stars, CL|The Archivist|Wyldfire|400
+The Archivist|District of the Stars, CL|The Archivist|Balefrost|400
+The Archivist|District of the Stars, CL|The Archivist|Sanctuary|400
+The Archivist|District of the Stars, CL|The Archivist|Time of Legend|400
+The Archivist|District of the Stars, CL|The Archivist|Darkwind|400
+The Archivist|District of the Stars, CL|The Archivist|Tower Shield|450
+The Archivist|District of the Stars, CL|The Archivist|Spirit Blade|450
+The Archivist|District of the Stars, CL|The Archivist|Elemental Trap|450
+The Archivist|District of the Stars, CL|The Archivist|Spirit Trap|450
+The Archivist|District of the Stars, CL|The Archivist|Elemental Blade|450
+The Archivist|District of the Stars, CL|The Archivist|Distract|500
+The Archivist|District of the Stars, CL|The Archivist|Dark Sprite|500
+The Archivist|District of the Stars, CL|The Archivist| Spirit Armor|500
+The Archivist|District of the Stars, CL|The Archivist|Gargantuan|500
+The Archivist|District of the Stars, CL|The Archivist|Life Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Mutate Banshee|600
+The Archivist|District of the Stars, CL|The Archivist|Myth Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Mutate Swarm|600
+The Archivist|District of the Stars, CL|The Archivist|Storm Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Death Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Fire Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Ice Prism|600
+The Archivist|District of the Stars, CL|The Archivist|Mutate Wyvern|700
+The Archivist|District of the Stars, CL|The Archivist|Mutate Kraken|700
+The Archivist|District of the Stars, CL|The Archivist|Glacial Shield|700
+The Archivist|District of the Stars, CL|The Archivist|Quench|700
+The Archivist|District of the Stars, CL|The Archivist|Mutate Minotaur|800
+The Archivist|District of the Stars, CL|The Archivist|FireSpear|800
+The Archivist|District of the Stars, CL|The Archivist|DeathSpear|800
+The Archivist|District of the Stars, CL|The Archivist|IceSpear|800
+The Archivist|District of the Stars, CL|The Archivist|MythSpear|800
+The Archivist|District of the Stars, CL|The Archivist|StormSpear|800
+The Archivist|District of the Stars, CL|The Archivist|LifeSpear|800
+The Archivist|District of the Stars, CL|The Archivist|Fortify|1000
+The Archivist|District of the Stars, CL|The Archivist|Amplify|1000
+The Archivist|District of the Stars, CL|The Archivist|Cloak|1000
+The Archivist|District of the Stars, CL|The Archivist|Infallible|1000
+The Archivist|District of the Stars, CL|The Archivist|Death Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Ice Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Life Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Myth Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Storm Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Fire Blade|1000
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Mander|1000
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Gobbler|1000
+The Archivist|District of the Stars, CL|The Archivist|Mutate Phoenix|1000
+The Archivist|District of the Stars, CL|The Archivist|Elemental Spear|1000
+The Archivist|District of the Stars, CL|The Archivist|Spirit Spear|1000
+The Archivist|District of the Stars, CL|The Archivist|Stormzilla|1000
+The Archivist|District of the Stars, CL|The Archivist|Reshuffle|1100
+The Archivist|District of the Stars, CL|The Archivist|Helephant|1200
+The Archivist|District of the Stars, CL|The Archivist|Wraith|1200
+The Archivist|District of the Stars, CL|The Archivist|Colossus|1200
+The Archivist|District of the Stars, CL|The Archivist|Hydra|1200
+The Archivist|District of the Stars, CL|The Archivist|Centaur|1200
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Bandit|1200
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Treant|1500
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Dragon|1500
+The Archivist|District of the Stars, CL|The Archivist|Fairy|1600
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Elemental|2000
+The Archivist|District of the Stars, CL|The Archivist|Polymorph Colossus|2000
+The Archivist|District of the Stars, CL|The Archivist|Triton|2200
+The Archivist|District of the Stars, CL|The Archivist|Earthquake|2600
+The Archivist|District of the Stars, CL|The Archivist|Dryad|3000
+The Archivist|District of the Stars, CL|The Archivist|Taunt|3600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Keen Eyes|50
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Tough|50
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Accurate|50
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Buff Minion|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fire Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Myth Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ice Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Storm Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Death Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Life Shield|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Giant|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sniper|150
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Monstrous|250
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Unstoppable|250
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Draw Health|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Calm|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Pacify|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Soothe|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Subdue|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Tranquilize|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Stun Block|300
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Volcanic Shield|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Legend Shield|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ether Shield|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Thermic Shield|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Death Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fire Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ice Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Life Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Myth Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Storm Trap|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sprite|350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Drain Health|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mend Minion|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Power Play|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Doom and Gloom|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Wyldfire|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Balefrost|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sanctuary|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Time of Legend|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Darkwind|400
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sap Health|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Tower Shield|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Spirit Blade|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Elemental Trap|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Spirit Trap|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Elemental Blade|450
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Steal Health|500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Distract|500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Dark Sprite|500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf| Spirit Armor|500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Gargantuan|500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Life Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Banshee|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Myth Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Swarm|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Storm Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Death Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fire Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ice Prism|600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Wyvern|700
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Kraken|700
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Glacial Shield|700
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Quench|700
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Minotaur|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|FireSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|DeathSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|IceSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|MythSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|StormSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|LifeSpear|800
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Satyr|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fortify|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Amplify|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Vengeance|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Infallible|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Death Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ice Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Life Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Myth Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Storm Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fire Blade|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Mander|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Gobbler|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mutate Phoenix|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Elemental Spear|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Spirit Spear|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Stormzilla|1000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Take Power|1050
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Reshuffle|1100
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sap Power|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Helephant|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Hydra|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Wraith|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Colossus|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Centaur|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Bandit|1200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Spirit Shield|1350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Elemental Shield|1350
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Treant|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Dragon|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Ninja|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Conviction|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Strangle|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Unbalance|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Vaporize|1500
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fairy|1600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Sprite Guardian|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Ice Guardian|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Water Elemental|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Fire Elemental|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Mander Minion|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Cyclops Minion|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Animate|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Spirit Defuse|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Elemental Defuse|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Elemental|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Polymorph Colossus|2000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Triton|2200
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Earthquake|2600
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Dryad|3000
+Zafaria Library|Baobab Crown, Zafaria|Kiliman Copperleaf|Entangle|3000
+Avalon Library|Abbey Road, AV|Francis Lux|Buff Minion|150
+Avalon Library|Abbey Road, AV|Francis Lux|Fire Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Myth Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Ice Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Storm Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Death Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Life Shield|150
+Avalon Library|Abbey Road, AV|Francis Lux|Sniper|150
+Avalon Library|Abbey Road, AV|Francis Lux|Monstrous|250
+Avalon Library|Abbey Road, AV|Francis Lux|Unstoppable|250
+Avalon Library|Abbey Road, AV|Francis Lux|Draw Health|300
+Avalon Library|Abbey Road, AV|Francis Lux|Calm|300
+Avalon Library|Abbey Road, AV|Francis Lux|Pacify|300
+Avalon Library|Abbey Road, AV|Francis Lux|Soothe|300
+Avalon Library|Abbey Road, AV|Francis Lux|Subdue|300
+Avalon Library|Abbey Road, AV|Francis Lux|Tranquilize|300
+Avalon Library|Abbey Road, AV|Francis Lux|Volcanic Shield|350
+Avalon Library|Abbey Road, AV|Francis Lux|Legend Shield|350
+Avalon Library|Abbey Road, AV|Francis Lux|Ether Shield|350
+Avalon Library|Abbey Road, AV|Francis Lux|Thermic Shield|350
+Avalon Library|Abbey Road, AV|Francis Lux|Death Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Fire Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Ice Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Life Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Myth Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Storm Trap|350
+Avalon Library|Abbey Road, AV|Francis Lux|Drain Health|400
+Avalon Library|Abbey Road, AV|Francis Lux|Mend Minion|400
+Avalon Library|Abbey Road, AV|Francis Lux|Power Play|400
+Avalon Library|Abbey Road, AV|Francis Lux|Doom and Gloom|400
+Avalon Library|Abbey Road, AV|Francis Lux|Wyldfire|400
+Avalon Library|Abbey Road, AV|Francis Lux|Balefrost|400
+Avalon Library|Abbey Road, AV|Francis Lux|Sanctuary|400
+Avalon Library|Abbey Road, AV|Francis Lux|Time of Legend|400
+Avalon Library|Abbey Road, AV|Francis Lux|Darkwind|400
+Avalon Library|Abbey Road, AV|Francis Lux|Nature's Wrath|400
+Avalon Library|Abbey Road, AV|Francis Lux|Sap Health|450
+Avalon Library|Abbey Road, AV|Francis Lux|Spirit Blade|450
+Avalon Library|Abbey Road, AV|Francis Lux|Elemental Trap|450
+Avalon Library|Abbey Road, AV|Francis Lux|Spirit Trap|450
+Avalon Library|Abbey Road, AV|Francis Lux|Elemental Blade|450
+Avalon Library|Abbey Road, AV|Francis Lux|Steal Health|500
+Avalon Library|Abbey Road, AV|Francis Lux|Mega Calm|500
+Avalon Library|Abbey Road, AV|Francis Lux|Mega Pacify|500
+Avalon Library|Abbey Road, AV|Francis Lux|Mega Soothe|500
+Avalon Library|Abbey Road, AV|Francis Lux|Mega Subdue|500
+Avalon Library|Abbey Road, AV|Francis Lux|Mega Tranquilize|500
+Avalon Library|Abbey Road, AV|Francis Lux|Distract|500
+Avalon Library|Abbey Road, AV|Francis Lux| Spirit Armor|500
+Avalon Library|Abbey Road, AV|Francis Lux|Gargantuan|500
+Avalon Library|Abbey Road, AV|Francis Lux|Life Prism|600
+Avalon Library|Abbey Road, AV|Francis Lux|Storm Prism|600
+Avalon Library|Abbey Road, AV|Francis Lux|Death Prism|600
+Avalon Library|Abbey Road, AV|Francis Lux|Fire Prism|600
+Avalon Library|Abbey Road, AV|Francis Lux|Ice Prism|600
+Avalon Library|Abbey Road, AV|Francis Lux|Glacial Shield|700
+Avalon Library|Abbey Road, AV|Francis Lux|Quench|700
+Avalon Library|Abbey Road, AV|Francis Lux|FireSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|DeathSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|IceSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|MythSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|StormSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|LifeSpear|800
+Avalon Library|Abbey Road, AV|Francis Lux|Stormzilla|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Death Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Ice Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Life Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Myth Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Storm Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Fire Blade|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Elemental Spear|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Spirit Spear|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Stormzilla|1000
+Avalon Library|Abbey Road, AV|Francis Lux|Take Power|1050
+Avalon Library|Abbey Road, AV|Francis Lux|Reshuffle|1100
+Avalon Library|Abbey Road, AV|Francis Lux|Sap Power|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Helephant|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Hydra|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Wraith|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Colossus|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Hydra|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Centaur|1200
+Avalon Library|Abbey Road, AV|Francis Lux|Spirit Shield|1350
+Avalon Library|Abbey Road, AV|Francis Lux|Elemental Shield|1350
+Avalon Library|Abbey Road, AV|Francis Lux|Strangle|1500
+Avalon Library|Abbey Road, AV|Francis Lux|Unbalance|1500
+Avalon Library|Abbey Road, AV|Francis Lux|Vaporize|1500
+Avalon Library|Abbey Road, AV|Francis Lux|Unicorn|2000
+Avalon Library|Abbey Road, AV|Francis Lux|Spirit Defuse|2000
+Avalon Library|Abbey Road, AV|Francis Lux|Elemental Defuse|2000
+Avalon Library|Abbey Road, AV|Francis Lux|Triton|2200
+Avalon Library|Abbey Road, AV|Francis Lux|Earthquake|2600
+Avalon Library|Abbey Road, AV|Francis Lux|Dryad|3000
+Avalon Library|Abbey Road, AV|Francis Lux|Entangle|3000
