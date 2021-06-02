@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-def find_boss_info(boss_name)
-    url = 'http://www.wizard101central.com/wiki/Creature:' + '_'.join(boss_name)
+def find_boss_info(boss_name):
+    url = 'http://www.wizard101central.com/wiki/Creature:' + str('_'.join(boss_name)).title()
     resp = requests.get(url)
     page_info = BeautifulSoup(resp.text, 'html.parser')
     general_info = page_info.find('div', {'id': 'relative-top'})
@@ -36,7 +36,7 @@ def find_boss_info(boss_name)
     resists = out[:-5]
     # await context.send("__**Resists: **__" + out)
 
-    await context.send("__**Cheats: **__")
+    #await context.send("__**Cheats: **__")
     try:
         cheats = page_info.find('div', text='Cheats').parent()
         # await context.send(cheats[1].text)
@@ -48,6 +48,8 @@ def find_boss_info(boss_name)
         'health': health,
         'starting_pips': starting_pips,
         'boosts': boosts,
-        'resists': reseists,
+        'resists': resists,
         'cheats': cheats,
     }
+
+    return boss_info
