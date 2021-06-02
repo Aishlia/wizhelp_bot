@@ -9,7 +9,7 @@ def find_boss_info(boss_name):
     page_info = BeautifulSoup(resp.text, 'html.parser')
     if page_info.find('div', {'class':'noarticletext'}):
         print('couldn\'t find wiki')
-        query = '+'.join(boss_name)+' wizard101'
+        query = '+'.join(boss_name)+' boss wizard101'
         # print(query)
         search_results = search(query, 5)
         # print(search_results)

@@ -1,4 +1,5 @@
 import csv
+import os
 
 # with open('resources/library_tc_raw.txt', 'r') as f:
 #     lines = f.readlines()
@@ -25,8 +26,9 @@ import csv
 #             spamwriter.writerow([library, location, vendor_name, card, price])
 
 def wtb_tc(tc_name):  # where to buy treasure card
-    with open('../resources/library_tc.csv', 'w') as csvfile:
+    with open('resources/library_tc.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile, delimiter='|')
+        # library, location, librarian, spell, cost = ("",)
         tc_info = {
            "library": 'Not available for purchase',
            "location": '',
@@ -42,15 +44,15 @@ def wtb_tc(tc_name):  # where to buy treasure card
                 librarian = row['librarian']
                 spell = row['spell']
                 cost = row['cost']
-                break
 
-        tc_info = {
-            "library": library,
-            "location": location,
-            "librarian": librarian,
-            "spell": spell,
-            "cost": cost,
-        }
+                tc_info = {
+                    "library": library,
+                    "location": location,
+                    "librarian": librarian,
+                    "spell": spell,
+                    "cost": cost,
+                }
+                break
 
         return tc_info
 

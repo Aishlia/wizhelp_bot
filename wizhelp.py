@@ -13,16 +13,11 @@ import random
 from pygifsicle import optimize
 
 
-from functions.library_tc import wtb_tc
+from functions.library_tc import wtb_tc as lib_wtb_tc
 from functions.find_boss_info import find_boss_info
 from functions.reagent_recipes import reagent_recipes_lookup
 
 bot = commands.Bot(command_prefix='!')
-
-@bot.command()
-async def embed(ctx):
-    embed=discord.Embed(title="Sample Embed", url="https://realdrewdata.medium.com/", description="This is an embed that will show how to build an embed and the different components", color=0xFF5733)
-    await ctx.send(embed=embed)
 
 @bot.event
 async def on_ready():
@@ -32,28 +27,30 @@ async def on_ready():
 async def greeting(context):
     await context.send('Hello there!')
 
-@bot.command(name='boss', help='')
+@bot.command(name='boss', help='Find out boss stats and cheats')
 async def find_boss_cheats(context, *boss_name: str):
     boss_info = find_boss_info(boss_name)
-    await context.send("**Health**:  " + boss_info['health'])
-    await context.send("**Pips**:    " + boss_info['starting_pips'])
-    await context.send("**Boosts**:  " + boss_info['boosts'])
-    await context.send("**Resists**: " + boss_info['resists'])
-    await context.send("**Cheats**: ")
-    await context.send(boss_info['cheats'])
+    embed=discord.Embed(title=' '.join(boss_name).title(), color=0xFF5733)
+    embed.add_field(name="**Health**", value=boss_info['health'], inline=False)
+    embed.add_field(name="**Pips:**", value=boss_info['starting_pips'], inline=False)
+    embed.add_field(name="**Boosts:**", value=boss_info['boosts'], inline=False)
+    embed.add_field(name="**Resists:**", value=boss_info['resists'], inline=False)
+    embed.add_field(name="**Cheats:**", value=boss_info['cheats'], inline=False)
+    await context.send(embed=embed)
 
-@bot.command(name='tc', help='')
+@bot.command(name='tc', help='Find out where to buy a treasure card.')
 async def wtb_tc(context, *spell: str):
-    tc_info = wtb_tc(spell)
-    print(tc_info)
-    await context.send("**Library:   **" + tc_info['library'])
-    await context.send("**Location:  **" + tc_info['location'])
-    await context.send("**Librarian: **" + tc_info['librarian'])
-    await context.send("**Spell:     **" + tc_info['spell'])
-    await context.send("**Cost:      **" + tc_info['cost'])
+    tc_info = lib_wtb_tc(spell)
+    embed=discord.Embed(title=' '.join(spell).title(), color=0xFF5733)
+    embed.add_field(name="**Library:**", value=tc_info['library'], inline=False)
+    embed.add_field(name="**Location:**", value=tc_info['location'], inline=False)
+    embed.add_field(name="**Librarian:**", value=tc_info['librarian'], inline=False)
+    embed.add_field(name="**Spell:**", value=tc_info['spell'], inline=False)
+    embed.add_field(name="**Cost:**", value=tc_info['cost'], inline=False)
+    await context.send(embed=embed)
 
-@bot.command(name='reagent', help='')
-async def wtb_tc(context, *reagent: str):
+@bot.command(name='reagent', help='Find out what recipes a reagent is used for.')
+async def wtb_reagent(context, *reagent: str):
     reagent_recipes = reagent_recipes_lookup(reagent)
     print(reagent_recipes)
     embed=discord.Embed(title=' '.join(reagent).title(), color=0xFF5733)
@@ -63,5 +60,9 @@ async def wtb_tc(context, *reagent: str):
             await context.send(embed=embed)
             embed=discord.Embed(title=' '.join(reagent).title() + ' cont.', colour=0x0ff1ce)
     await context.send(embed=embed)
+
+@bot.command(name='recipe', help='Find out the recipe for a craftable.')
+async def finding_the_recipe(context, *craftable: str):
+    reagent_recipe = reagent_recipes_lookup(reagent)
 
 bot.run(os.getenv('BOT_TOKEN'))
