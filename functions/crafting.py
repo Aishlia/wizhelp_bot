@@ -87,7 +87,7 @@ def recipe_types():
     recipe_list_section = recipe_section.find('div', {'class': 'CategoryTreeChildren'})
     recipe_list = recipe_list_section.findAll('div', {'class': 'CategoryTreeSection'})
 
-    skip = 20
+    skip = 25
     ctr = 0
 
     for recipe_type in recipe_list:
