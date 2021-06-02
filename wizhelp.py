@@ -63,6 +63,6 @@ async def wtb_reagent(context, *reagent: str):
 
 @bot.command(name='recipe', help='Find out the recipe for a craftable.')
 async def finding_the_recipe(context, *craftable: str):
-    reagent_recipe = reagent_recipes_lookup(reagent)
+    pass
 
 bot.run(os.getenv('BOT_TOKEN'))

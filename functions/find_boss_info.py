@@ -33,9 +33,8 @@ def find_boss_info(boss_name):
     # await context.send("__**Starting Pips: **__" + starting_pips)
 
     boosts_info = page_info.find('td', text='Inc. Boost').parent()[2]
-    boosts = boosts_info.text.strip()
+    out = boosts_info.text.strip() + ' '
     boost_classes = boosts_info.findAll('a')
-    out = ''
     for i in boost_classes:
         spell_type = i['title'][9:]
         out += spell_type + ' and '
@@ -43,9 +42,8 @@ def find_boss_info(boss_name):
     # await context.send("__**Boosts: **__" + out)
 
     resists_info = page_info.find('td', text='Inc. Resist').parent()[2]
-    resists = resists_info.text.strip()
+    out = resists_info.text.strip() + ' '
     resists_classes = resists_info.findAll('a')
-    out = ''
     for i in resists_classes:
         spell_type = i['title'][9:]
         out += spell_type + ' and '
