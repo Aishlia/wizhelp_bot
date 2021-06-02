@@ -1,1 +1,1 @@
-# discord-porn-bot
+# Wizard101 Helper Discord Bot
