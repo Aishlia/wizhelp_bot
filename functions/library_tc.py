@@ -25,15 +25,15 @@ import csv
 #             spamwriter.writerow([library, location, vendor_name, card, price])
 
 def wtb_tc(tc_name):  # where to buy treasure card
-    tc_info = {
-       "library": 'Not available for purchase',
-       "location": '',
-       "librarian": '',
-       "spell": '',
-       "cost": '',
-    }
-    with open('../resources/library_tc.csv', 'r') as csvfile:
+    with open('../resources/library_tc.csv', 'w') as csvfile:
         reader = csv.DictReader(csvfile, delimiter='|')
+        tc_info = {
+           "library": 'Not available for purchase',
+           "location": '',
+           "librarian": '',
+           "spell": '',
+           "cost": '',
+        }
 
         for row in reader:
             if ' '.join(tc_name).lower() == row['spell'].lower():
@@ -44,14 +44,14 @@ def wtb_tc(tc_name):  # where to buy treasure card
                 cost = row['cost']
                 break
 
-    tc_info = {
-    "library": library,
-    "location": location,
-    "librarian": librarian,
-    "spell": spell,
-    "cost": cost,
-    }
+        tc_info = {
+            "library": library,
+            "location": location,
+            "librarian": librarian,
+            "spell": spell,
+            "cost": cost,
+        }
 
-    return tc_info
+        return tc_info
 
 # print(wtb_tc('ice shield'))
