@@ -16,6 +16,7 @@ from pygifsicle import optimize
 from functions.library_tc import wtb_tc as lib_wtb_tc
 from functions.find_boss_info import find_boss_info
 from functions.reagent_recipes import reagent_recipes_lookup
+from functions.find_recipe  import find_recipe
 
 bot = commands.Bot(command_prefix='!')
 
@@ -30,7 +31,7 @@ async def greeting(context):
 @bot.command(name='boss', help='Find out boss stats and cheats')
 async def find_boss_cheats(context, *boss_name: str):
     boss_info = find_boss_info(boss_name)
-    embed=discord.Embed(title=' '.join(boss_name).title(), color=0xFF5733)
+    embed=discord.Embed(title=boss_info['boss_name'], color=0xFF5733)
     embed.add_field(name="**Health**", value=boss_info['health'], inline=False)
     embed.add_field(name="**Pips:**", value=boss_info['starting_pips'], inline=False)
     embed.add_field(name="**Boosts:**", value=boss_info['boosts'], inline=False)
@@ -63,6 +64,18 @@ async def wtb_reagent(context, *reagent: str):
 
 @bot.command(name='recipe', help='Find out the recipe for a craftable.')
 async def finding_the_recipe(context, *craftable: str):
-    pass
+    recipe_info = find_recipe(craftable)
+    embed=discord.Embed(title=recipe_info['recipe_name'], url = recipe_info['item_url'], color=0xFF5733)
+    if recipe_info['ingredients'] != '.':
+        embed.add_field(name="**Rank:**", value=recipe_info['rank'], inline=True)
+        embed.add_field(name="**Cooldown:**", value=recipe_info['cooldown_timer'], inline=True)
+        embed.add_field(name="**Station:**", value=recipe_info['station'], inline=True)
+        embed.add_field(name="**Vendor:**", value=recipe_info['vendor'], inline=True)
+        embed.add_field(name="**Gold:**", value=recipe_info['gold'], inline=True)
+        ingredient_list = ''
+        for ingredient in recipe_info['ingredients']:
+            ingredient_list += f'{ingredient[0]}  {ingredient[1]}\n'
+        embed.add_field(name="**Ingredients:**", value=ingredient_list, inline=False)
+    await context.send(embed=embed)
 
 bot.run(os.getenv('BOT_TOKEN'))

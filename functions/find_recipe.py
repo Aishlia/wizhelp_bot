@@ -1,59 +1,65 @@
+import requests
+from bs4 import BeautifulSoup
+import re
+from googlesearch import search
 import csv
-import os
 
-# with open('resources/library_tc_raw.txt', 'r') as f:
-#     lines = f.readlines()
-#
-# with open('resources/library_tc.csv', 'w') as csvfile:
-#     spamwriter = csv.writer(csvfile, delimiter='|', quoting = csv.QUOTE_MINIMAL)
-#
-#     library = ''
-#     location = ''
-#     vendor_name = ''
-#
-#     for line in lines:
-#         if not line.strip():
-#             continue
-#         elif ('Library' in line or 'The Archivist' in line) and ('Vendor' not in line):
-#             library = line.strip()
-#         elif 'Vendor Location' in line:
-#             location = line.strip()[17:]
-#         elif 'Vendor Name' in line:
-#             vendor_name = line.strip()[13:]
-#         else:
-#             card = line.split(' - ')[0]
-#             price = str(line.split(' - ')[1].split(' ')[0].strip())
-#             spamwriter.writerow([library, location, vendor_name, card, price])
-
-def wtb_tc(tc_name):  # where to buy treasure card
-    with open('resources/library_tc.csv', 'r') as csvfile:
+def find_recipe(item_name):
+    with open('resources/all_craftable_recipes.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile, delimiter='|')
-        # library, location, librarian, spell, cost = ("",)
-        tc_info = {
-           "library": 'Not available for purchase',
-           "location": '',
-           "librarian": '',
-           "spell": '',
-           "cost": '',
-        }
 
         for row in reader:
-            if ' '.join(tc_name).lower() == row['spell'].lower():
-                library = row['library']
-                location = row['location']
-                librarian = row['librarian']
-                spell = row['spell']
-                cost = row['cost']
-
-                tc_info = {
-                    "library": library,
-                    "location": location,
-                    "librarian": librarian,
-                    "spell": spell,
-                    "cost": cost,
+            if ' '.join(item_name).lower().replace("'", '') == row['recipe_name'].lower():
+                print(' '.join(item_name).lower().replace("'", ''))
+                recipe_info = {
+                    "recipe_name": row['recipe_name'],
+                    "item_url": row['item_url'],
+                    "rank": row['rank'],
+                    "cooldown_timer": row['cooldown_timer'],
+                    "station": row['station'],
+                    "vendor": row['vendor'],
+                    "gold": row['gold'],
+                    "ingredients": eval(row['ingredient_names']),
                 }
+                return recipe_info
+
+    with open('resources/all_craftable_recipes.csv', 'r') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter='|')
+
+        query = '+'.join(item_name)+' recipe wizard101central'
+        search_results = search(query, 10)
+        for result in search_results:
+            if 'wizard101central' in result and 'Recipe:' in result:
+                url = result
+                resp = requests.get(url)
+                page_info = BeautifulSoup(resp.text, 'html.parser')
                 break
 
-        return tc_info
+        item_name_google = page_info.find('h1', {'id':'firstHeading'}).get_text().replace('Recipe:', '')
+        print(item_name_google)
+        accept_name = item_name_google.strip().lower().replace("'", '')
+        for row in reader:
+            if accept_name == row['recipe_name'].lower():
+                recipe_info = {
+                    "recipe_name": item_name_google,
+                    "item_url": row['item_url'],
+                    "rank": row['rank'],
+                    "cooldown_timer": row['cooldown_timer'],
+                    "station": row['station'],
+                    "vendor": row['vendor'],
+                    "gold": row['gold'],
+                    "ingredients": eval(row['ingredient_names']),
+                }
+                return recipe_info
 
-# print(wtb_tc('ice shield'))
+        recipe_info = {
+            "recipe_name": 'Cannot find the recipe',
+            "item_url": 'https://google.com',
+            "rank": '.',
+            "cooldown_timer": '.',
+            "station": '.',
+            "vendor": '.',
+            "gold": '.',
+            "ingredients": '.',
+        }
+        return recipe_info
