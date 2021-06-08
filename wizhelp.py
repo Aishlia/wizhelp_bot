@@ -26,7 +26,7 @@ async def on_ready():
 
 @bot.command(name='hello', help='Responds with a hello message to show bot is up. !hello')
 async def greeting(context):
-    await context.send('Hello there!')
+    await context.send('Hi bub! My name is Merle Ambrose, but you can call me Ear for short. I\'m the headmaster at Ravenwood. Have fun doing my bidding.')
 
 @bot.command(name='boss', help='Find out boss stats and cheats')
 async def find_boss_cheats(context, *boss_name: str):
@@ -36,7 +36,11 @@ async def find_boss_cheats(context, *boss_name: str):
     embed.add_field(name="**Pips:**", value=boss_info['starting_pips'], inline=False)
     embed.add_field(name="**Boosts:**", value=boss_info['boosts'], inline=False)
     embed.add_field(name="**Resists:**", value=boss_info['resists'], inline=False)
-    embed.add_field(name="**Cheats:**", value=boss_info['cheats'], inline=False)
+    embed.add_field(name="**Cheats:**", value=boss_info['cheats'][:1024], inline=False)
+    try:
+        embed.add_field(name="**Cheats cont.:**", value=boss_info['cheats'][1024:], inline=False)
+    except:
+        pass
     await context.send(embed=embed)
 
 @bot.command(name='tc', help='Find out where to buy a treasure card.')
