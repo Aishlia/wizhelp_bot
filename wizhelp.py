@@ -36,11 +36,12 @@ async def find_boss_cheats(context, *boss_name: str):
     embed.add_field(name="**Pips:**", value=boss_info['starting_pips'], inline=False)
     embed.add_field(name="**Boosts:**", value=boss_info['boosts'], inline=False)
     embed.add_field(name="**Resists:**", value=boss_info['resists'], inline=False)
-    embed.add_field(name="**Cheats:**", value=boss_info['cheats'][:1024], inline=False)
-    try:
-        embed.add_field(name="**Cheats cont.:**", value=boss_info['cheats'][1024:], inline=False)
-    except:
-        pass
+    chunks = len(boss_info['cheats'])
+    chunk_size = 1000
+    x = boss_info['cheats']
+    cheats = [x[i:i+chunk_size] for i in range(0, chunks, chunk_size) ]
+    for i in cheats:
+        embed.add_field(name="**Cheats:**", value=i, inline=False)
     await context.send(embed=embed)
 
 @bot.command(name='tc', help='Find out where to buy a treasure card.')
