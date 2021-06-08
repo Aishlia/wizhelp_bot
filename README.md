@@ -1,4 +1,6 @@
 # Wizard101 Helper Discord Bot
+Discord bot to give some Wizard101 help.
+
 Commands | Output
 ------------ | -------------
 !help | basically this table
