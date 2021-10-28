@@ -9,4 +9,4 @@ Commands | Output
 !recipe name-of-item | Recipe for an item and some info*
 !tc name-of-tc | Where to buy a tc
 
-\* Supports mispelled words or general search terms.
+\* Supports mispelled words or general search terms. Ty google omegalul. 
